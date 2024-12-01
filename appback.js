@@ -32,8 +32,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 const supabase = 
-    supabaseClient.createClient('https://hxpmkrsuktgaqqesxnpl.supabase.co', 
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh4cG1rcnN1a3RnYXFxZXN4bnBsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA5MzE2NzQsImV4cCI6MjA0NjUwNzY3NH0.jwEgCedJzTy0ABC5yA92bPag8SngA7T4c4qFy8YX3qg')
+    supabaseClient.createClient('https://puloapqozrdgvyizwwqo.supabase.co', 
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB1bG9hcHFvenJkZ3Z5aXp3d3FvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzIzMjE5MTQsImV4cCI6MjA0Nzg5NzkxNH0.k9yLkbtHVb_eSlaomTB8Wo8DyF4mzfE4ZJ3X4fTMPv8')
 
 
 app.get('/products', async (req, res) => {
